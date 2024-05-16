@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #979DB5;
+}
+
+.container{
+    background-color: #242E4C;
+    padding: 40px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sidebar{
+    padding: 15px;
+    background-color: #171E3A;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: relative;
+    height: 530px;
+    width: 230px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.prof-img{
+    background: url(https://s3-alpha-sig.figma.com/img/51ca/17c8/a732c581f8bc1fb219ec3b204a99afea?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K3YoM554ul98NoVtT82MyDtThD5CIp6jaIpUT3EXFdUgcUMYP9XugXmNWzBias15vdUw99-golqfoIfdHj2Rw6fxc0ugX3iCZcvZ1B-g7NTh2Njuy9Cm2r6TzkAi7MBwFR2gMDl-Y2aPQoj9ij~5ZJSA~EUXrmukf96UGrUOAdszmmTgM0TfrxikG0V6zGtZYJYHQZ49fGXmwSrLr4wR06FdRZ30V8Nj07fu1RRoR0oxTANbgEqp9F8BgcDYFNZxJ7782ellwY7qcRnDyegYiGqwfE88ZsWSKwx1DUUwrT5PSH0cBtBpgggkOzxa21Ra029wqFoGOUTnvLGlgW85bA__);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 15px;
+}
+
+p{
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+.mail{
+    font-size: 9px;
+}
+
+ul{
+    position: absolute;
+    left: 30px;
+    top: 84px;
+}
+
+ul li a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: inherit;
+    color: #fff;
+}
+
+ul li{
+    margin-top: 21px;
+}
+
+ul li:first-child{
+    margin-top: 76px;
+}
+
+i{
+    font-size: 20px;
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: absolute;
+    bottom: 26px;
+    left: 30px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 442px;
+    position: absolute;
+    top: 40px;
+    left: 285px;
+}
+
+.search-btn{  
+    padding: 8px 107px 8px 15px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-btn p{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+.search-btn i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.plus-btn{
+    background-color: #F570B5;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.headings{
+    display: flex;
+    margin-top: 40px;
+}
+
+.statistics{
+    margin: 40px 40px auto 0;
+}
+
+.product1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #171E3A66;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.product1:hover{
+    background-color: #171E3AB2;
+
+}
+
+.product1 i:hover{
+    color: #FFFFFF80;    
+}
+
+.p1{
+    margin-left: 20px;
+}
+
+.p2{
+    margin-left: 300px;
+}
+
+.p3{
+    margin-left: 100px;
+}
+
+.pp1{
+    width: 157px;
+}
+
+.pp2{
+    margin-left: 165px;
+    width: 64px;
+}
+
+.pp3{
+    margin-left: 67px;
+    width: 120px;
+}
+
+.product1 i{
+    margin-left: 60px;
+    color: transparent;
+}
+
+.color-box{
+    position: absolute;
+    background-color: #84CCA4;
+    width: 1%;
+    height: 100%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 100%;
+}
+
+#prdct .color-box{
+    background-color: #CB9770;
+}
